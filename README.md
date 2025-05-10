@@ -1,9 +1,9 @@
 # minishell
 [Voir le sujet](./subject.pdf)
 
-Projet de niveau 3 de l'école 42.
+Projet de niveau 4 de l'école 42.
 
-Création d’un shell minimal respectant certaines règles POSIX de base. Gestion des pipes, redirections, signaux, ainsi que des opérateurs logiques `&&`, `||`, des wildcards et des parenthèses pour les commandes complexes.
+Création d’un shell qui devra se rapprocher le plus fidélement possible de BASH. Exclure les commandes invalides, executer toutes les commandes valides entrées grace à execve. Gestion des pipes, redirections, signaux, ainsi que des opérateurs logiques `&&`, `||`, des wildcards et des parenthèses.
 
 ### Fonctionnalités principales :
 - **Opérateurs logiques :** Supporte `&&` et `||` pour l’enchaînement des commandes conditionnelles.
